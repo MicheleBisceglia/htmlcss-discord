@@ -8,3 +8,13 @@
 body {
     background-color: blue;
 }
+
+header {
+    height: 70px;
+    background-color: brown;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
