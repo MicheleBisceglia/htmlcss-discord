@@ -5,13 +5,20 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: blue;/*debug*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
+
+html {
+    font-family: "Whitney", sans-serif;
+}
+
 /*Header*/
 header {
     height: 70px;
-    background-color: brown;/*debug*/
+    background-color: #3161e0;/*debug*/
 }
 
 .container {
@@ -20,9 +27,14 @@ header {
 }
 
 .logo {
-    padding-top: 15px; ;
+    padding-top: 20px; ;
 }
 
+.menu {
+    padding-top: 25px;
+    padding-left: 10%;
+    text-align: center;
+}
 ul {
     list-style: none;
     text-align: center;
@@ -34,3 +46,19 @@ ul {
     font-size: 20px;
     color: white;
 }
+ .float {
+     float: left;
+ }
+
+ .button {
+     margin-left: 10%;
+     margin-top: 25px;
+     background-color: white;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 30%;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
