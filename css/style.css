@@ -6,15 +6,19 @@
 }
 
 body {
-    background-color: blue;
+    background-color: blue;/*debug*/
 }
-
+/*Header*/
 header {
     height: 70px;
-    background-color: brown;
+    background-color: brown;/*debug*/
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
+}
+
+.logo {
+    padding-top: 15px; ;
 }
