@@ -82,3 +82,18 @@ ul {
 .m-btn {
     text-align: center;
 }
+
+.m-btn1 {
+     background-color: white;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     margin-bottom: 15%;
+ }
+
+ .m-btn2 {
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15% ;
+}
